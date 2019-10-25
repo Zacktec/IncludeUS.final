@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap');
+ /*font awesome icons*/
+ @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+    margin:0;
+    background-color:#292929; 
+}
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+/*Service Section*/
+.services{
+	float: left;
+	width: 100%;
+	padding:80px 0px; 
+	background-color:#292929;
+}
+.services .services-content{
+ width: 100%;
+ float: left;
+}
+.services .services-content .card{
+	width: 33%;
+	float: left;
+	padding:15px;
+}
+.services .services-content .card .box{
+	background-color:#353535;
+	padding:30px;
+	position: relative;
+}
+.services .services-content .card .box::before{
+	content:'';
+	position: absolute;
+	left:0;
+	bottom:0px;
+	height: 3px;
+	width:0;
+	background-color: #f3971b;
+	z-index:1;
+	transition: width .5s ease;
+}
+.services .services-content .card .box:hover::before{
+	width: 100%;
+}
+
+.services .services-content .card .box .icon{
+	text-align: center;
+	font-size:40px;
+	color: #f3971b;
+}
+
+.services .services-content .card .box h3{
+	font-size:20px;
+	color:#ffffff;
+	text-align: center;
+	margin:20px 0 10px;
+	font-weight:600;
+
+}
+
+.services .services-content .card .box p{
+	color:#c2c0c3;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing:.5px;
+	text-align: center;
+	font-weight: 400;
+
+}
+///////////////////////////////////////////
+.services .services-content .card2{
+	width: 33%;
+	float: left;
+	padding:15px;
+}
+.services .services-content .card2 .box{
+	background-color:#353535;
+	padding:30px;
+	position: relative;
+}
+.services .services-content .card2 .box::before{
+	content:'';
+	position: absolute;
+	left:0;
+	bottom:0px;
+	height: 3px;
+	width:0;
+	background-color: #f3971b;
+	z-index:1;
+	transition: width .5s ease;
+}
+.services .services-content .card2 .box:hover::before{
+	width: 100%;
+}
+
+.services .services-content .card2 .box .icon{
+	text-align: center;
+	font-size:40px;
+	color: #f3971b;
+}
+
+.services .services-content .card2 .box h3{
+	font-size:20px;
+	color:#ffffff;
+	text-align: center;
+	margin:20px 0 10px;
+	font-weight:600;
+
+}
+
+.services .services-content .card2 .box p{
+	color:#c2c0c3;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing:.5px;
+	text-align: center;
+	font-weight: 400;
+
+}
+/////////////////////////////
+.services .services-content .card3{
+	width: 33%;
+	float: left;
+	padding:15px;
+}
+.services .services-content .card3 .box{
+	background-color:#353535;
+	padding:30px;
+	position: relative;
+}
+.services .services-content .card3 .box::before{
+	content:'';
+	position: absolute;
+	left:0;
+	bottom:0px;
+	height: 3px;
+	width:0;
+	background-color: #f3971b;
+	z-index:1;
+	transition: width .5s ease;
+}
+.services .services-content .card3 .box:hover::before{
+	width: 100%;
+}
+
+.services .services-content .card3 .box .icon{
+	text-align: center;
+	font-size:40px;
+	color: #f3971b;
+}
+
+.services .services-content .card3 .box h3{
+	font-size:20px;
+	color:#ffffff;
+	text-align: center;
+	margin:20px 0 10px;
+	font-weight:600;
+
+}
+
+.services .services-content .card3 .box p{
+	color:#c2c0c3;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing:.5px;
+	text-align: center;
+	font-weight: 400;
+
+}
+
+
+//////////////////////minicard///////////////
+*/*////////
+.minicard{
+	width: 50%;
+	float: left;
+	padding:15px;
+}
+.minicard .box{
+	background-color:#353535;
+	padding:30px;
+	position: relative;
+}
+.minicard .box::before{
+	content:'';
+	position: absolute;
+	left:0;
+	bottom:0px;
+	height: 3px;
+	width:0;
+	background-color: #f3971b;
+	z-index:1;
+	transition: width .5s ease;
+}
+.minicard .box:hover::before{
+	width: 100%;
+}
+
+.minicard .box .icon{
+	text-align: center;
+	font-size:40px;
+	color: #f3971b;
+}
+
+.minicard .box h3{
+	font-size:20px;
+	color:#ffffff;
+	text-align: center;
+	margin:20px 0 10px;
+	font-weight:600;
+
+}
+
+.minicard .box p{
+	color:#c2c0c3;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing:.5px;
+	text-align: center;
+	font-weight: 400;
+
+}
+
