@@ -9,6 +9,14 @@ body{
     margin:0;
     background-color:#292929; 
 }
+#homeicon{
+	font-size: 3em;
+	color:  #75aa2c;
+	cursor: pointer;
+	position: relative;
+	float: left;
+	margin: 20px;
+}
 *{
 	box-sizing: border-box;
 	text-decoration: none;
@@ -31,11 +39,12 @@ body{
 }
 .services .services-content .card{
 	width: 33%;
+	height: 50%;
 	float: left;
 	padding:15px;
 }
 .services .services-content .card .box{
-	background-color:#353535;
+	background-color:#c2c0c3;
 	padding:30px;
 	position: relative;
 }
@@ -46,7 +55,7 @@ body{
 	bottom:0px;
 	height: 3px;
 	width:0;
-	background-color: #f3971b;
+	background-color: #75aa2c;
 	z-index:1;
 	transition: width .5s ease;
 }
@@ -62,7 +71,7 @@ body{
 
 .services .services-content .card .box h3{
 	font-size:20px;
-	color:#ffffff;
+	color:#c2c0c3;
 	text-align: center;
 	margin:20px 0 10px;
 	font-weight:600;
@@ -70,8 +79,8 @@ body{
 }
 
 .services .services-content .card .box p{
-	color:#c2c0c3;
-	font-size: 16px;
+	color:#292929;
+	font-size: 25px;
 	line-height: 25px;
 	letter-spacing:.5px;
 	text-align: center;
@@ -177,6 +186,15 @@ body{
 	text-align: center;
 	font-weight: 400;
 
+}
+#box1{
+height: 480px;
+}
+#box2{
+	height: 515px;
+}
+#box3{
+	height: 450px
 }
 
 

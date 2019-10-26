@@ -4,13 +4,30 @@
 html{
 	scroll-behavior: smooth;
 }
-#particles-js{}
 
 body{
 	font-family: 'Raleway', sans-serif;
     margin:0;
-	background-color: #000000;
+    background-color: #292929;;
 }
+#homeicon{
+	font-size: 3em;
+	color: #75aa2c;
+	cursor: pointer;
+	position: relative;
+	float: left;
+	margin: 20px;
+}
+
+.title{
+
+	color: #75aa2c;
+	font-size: 3em;
+	position: relative;
+	margin-left: 29%;
+
+}
+
 *{
 	box-sizing: border-box;
 	text-decoration: none;
@@ -21,104 +38,164 @@ body{
 	max-width: 1170px;
 	margin:auto;
 }
-.about{
+
+.portfolio{
 	float: left;
 	width: 100%;
 	padding:80px 0px; 
-	background-color:#353535;
+	background-color:#292929;
 }
 
-h2.title{
-  font-size:30px;
-  font-weight: 600;
-  margin:0;
-  padding-bottom:70px;
-  text-align: center;
-  text-transform: uppercase;
-  color:#75aa2c;
- position: relative;
- letter-spacing:5px;
-}
-h2.title::before{
-	content: '';
-	position: absolute;
-	width:80px;
-	height: 2px;
-    left: 50%;
-    margin-left:-40px;
-    top:50px;
-    background-color: #75aa2c;
-}
-h6.title{
-	font-size:15px;
-	margin:0;
-	text-align: center;
-	text-transform: uppercase;
-	color:#75aa2c;
-   position: relative;
-   letter-spacing:.5px;
-   padding-bottom: 60px;
-  }
-  h6.title::before{
-	  content: '';
-	  position: absolute;
-	  width:80px;
-	  height: 2px;
-	  left: 50%;
-	  margin-left:-40px;
-	  top:50px;
-	  background-color: #75aa2c;
-  }
-
-.about .about-content{
-	width: 100%;
-	float: center;
-}
-
-img{
-	width: %;
-	position: center;
-	border:10px solid #3c3c3c;
-	border-radius: 50px;
-	margin-left: 33%;
-}
-.about .about-content .description{
+.portfolio .portfolio-content{
 	float: left;
 	width: 100%;
 }
-.about .about-content .description h4{
+
+.portfolio .portfolio-content .card{
+	float:left;
+	width: 33.33%;
+	padding:15px;
+
+}
+
+.portfolio .portfolio-content .card .box{
+	background-color:#353535;
+	padding:15px;
+	position: relative;
+	height:500px ;
+}
+.portfolio .portfolio-content .card .box::before{
+	content:'';
+	position: absolute;
+	left:0;
+	top:0px;
+	height: 3px;
+	width:0;
+	background-color: #75aa2c;
+	z-index:1;
+	transition: width .5s ease;
+}
+.portfolio .portfolio-content .card .box:hover::before{
+	width: 100%;
+}
+.portfolio .portfolio-content .card .box p{
+color: #ffffff;
+font-size: 1.2em;
+
+
+}
+
+.portfolio .portfolio-content .card .box h3{
+	margin:0;
+	padding:15px 0 5px;
+	color:#ffffff;
 	font-size:20px;
-	color:#ffffff;
-	margin:0;
-	font-weight: 400;
-}
-.about .about-content .description h5{
-	font-size:25px;
-	color:#ffffff;
-	margin:0;
-	padding-bottom:10px;
 	font-weight: 600;
-}
-.about .about-content .description p {
-	color:#c2c0c3;
-	font-size: 25px;
-	line-height: 25px;
 	letter-spacing:.5px;
-	text-align: left;
-	font-weight: 400;
 }
-ul{
-	font-size: 25px;
-	color:#c2c0c3;
-	line-height: 50px;
+.portfolio .portfolio-content .card .box h4{
+	margin:0;
+	padding:5px 0px 25px;
+	color:#75aa2c;
+	font-size:16px;
+	font-weight: 700;
+	text-transform: uppercase;
 	letter-spacing:.5px;
-	text-align: left;
-	font-weight: 400;
+}
+.portfolio .portfolio-content .card .box img{
+	width: 100%;
+	display:block;
+}
+.portfolio .portfolio-content .card .box .but{
+	display: inline;
+}
+
+.portfolio .portfolio-content .card .box .but input{
+margin-right: 10px;
+width: 150px;
+height:40px ;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: #75aa2c;
+border-radius: 14px;
+border: 2px solid #75aa2c;
+font-size: 1.2em;
+
+}
+
+.portfolio .portfolio-content .card .box .but input {
+    letter-spacing: 0;
+}
+
+.portfolio .portfolio-content .card .box .but input:hover,
+.portfolio .portfolio-content .card .box .but input:active {
+  color: azure;
+}
+
+.portfolio .portfolio-content .card .box .but input:after,
+.portfolio .portfolio-content .card .box .but input:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+  border: 2px solid #000000;
+}
+
+.portfolio .portfolio-content .card .box .but input:hover:after,
+.portfolio .portfolio-content .card .box .but input:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 400ms ease-in-out;
+  width: 70%;
+}
+
+.portfolio .portfolio-content .card .box .but input:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+div.classtest{
+	display: block;
+	position: relative;
+	left: 25%;
+	right: 25%;
+	}
 	
-}
-#keepsafe{
-	border-bottom: 50px;
-}
-.div{
+	textarea{
 	
-}
+	width: 600px;
+	height: 80px;
+	background-color:#525252 ;
+	color: #ffffff;
+	font-size: 2em;
+	
+	}
+	
+	button{
+	
+		background:#75aa2c;
+		border-color: #75aa2c;
+		width: 150px;
+		height: 50px;
+		position: relative;
+		top: 10px;
+		font-size: 1.15em;
+		margin-bottom: 20px;
+	
+	}
+	.comment-box{
+		position: relative;
+		width: 800px;
+		background-color: #75aa2c;
+		color: #000000;
+		margin-top: 10px;
+		left: 25%;
+		right: 10%;
+		letter-spacing: 2px;
+	}

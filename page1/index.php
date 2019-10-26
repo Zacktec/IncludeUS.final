@@ -25,9 +25,10 @@
                     <ul>
                           <li><a href="#home" class="active">Home</a></li>
                           <li><a href="#about">About</a></li>
+                          <li><a href="#services">Challenges</a></li>
                           <li><a href="#sign in">Sign in</a></li>
                           <li><a href="#sign up">Sign up</a></li>
-                          <li><a href="#services">Challenges</a></li>
+                          
                     </ul>
               </div>
         </div>
@@ -46,37 +47,64 @@
 		</div>
 	 </section>
    <!-- End Home -->
+   
    <!-- Start About -->
    <section class="about" id="about">
 		<div class="container">
 			  <h2 class="title">about us</h2>
 			  <div class="about-content">
-					<div class="img">
-						 <img src="images/about-me.jpg" alt="">
-					</div>
-					<!--<div class="description">
+					
+					<div class="description">
+                                          <div class="img">
+                                                      <img src="wall.jpg" alt="">
+                                          </div>
                                           Have you ever wondered what people with special needs experience in their daily life? We believe that the best way to take in consideration
                                           their struggle is living in their shoes for a while.
                                           
                                           Thats why we made "Include US" in purpose of challenging people to try living as a special needs person for some time,our platform's main goal is to help people feel the struggle of dailly life of a disabled person through out challenges that get poeple out of there confort zone with fun and meagninful activities and some really intressting meetups that could result in groupe challenges or simply some deeply intressting conversasions. 
                                           All this is to make poeple slowly but surrely more aware of the real life struggle of the special needs persons
-					</div>-->
+					</div>
 			  </div>
 		</div>
 	 </section>
    <!-- End About -->
+    <!-- Start challenges/meetup -->
+<section class="services" id="services">
+      <div class="container">
+              <div class="services-content">
+
+                      <div class="card">
+                            <div class="box">
+                                  <div class="icon">
+                                      <a href="../page2/index.php"> Challenges </a> 
+                                  </div>
+                                  <p class="p">walk in the shoes of a disabled person</p>
+                            </div>
+                      </div>
+                      <div class="card">
+                            <div class="box">
+                                  <div class="icon">
+                                       <a href="#">Meet-up</a> 
+                                  </div>
+                                  <p class="p">challenge yourself in groups and share an intresting experience with people</p>
+                            </div>
+                     </div>
+              </div>
+      </div>
+</section>
    <!-- Start Sign in -->
    <section class="contact" id="sign in">
-   	 <div class="container">
+   	 <div class="container" >
    	 	  
    	 	  <div class="contact-content">
    	 	  	  <form id="form1">
-                    <h2 class="title">SIGN IN</h2>
+                    <h2 class="title" >SIGN IN</h2>
    	 	  	  	 <input type="text" placeholder="user"/>
    	 	  	  	 <input type="password" placeholder="password"/>
-   	 	  	  	 <input type="submit" value="sign in">
+   	 	  	  	 <input type="submit" value="sign in" id="signin">
               </form>
-   	 	  </div>
+                  </div>
+                  
    	 </div>
    </section>
  <!-- End Sign in -->
@@ -86,42 +114,19 @@
    	 	  
    	 	  <div class="contact-content">
               <form id="form2" >
-                    <h2 class="title">SIGN UP</h2>
+                    <h2 class="title" >SIGN UP</h2>
                     <input type="text" name="pseudo" placeholder="user name">
                     <input type="email" name="email" placeholder="email adress">
                     <input type="password" name="password" placeholder="password">
                     <input type="password" name="password" placeholder="cofirm your password">
                     <input type="number" placeholder="mobile number" min="10" max="10"> 
-                    <input type="submit" value="sign un">
+                    <input type="submit" value="sign in">
                 </form>
    	 	  </div>
    	 </div>
    </section>
  <!-- End Sign up -->
- <!-- Start challenges/meetup -->
-<section class="services" id="services">
-            <div class="container">
-                    <div class="services-content">
 
-                            <div class="card">
-                                  <div class="box">
-                                        <div class="icon">
-                                            <a href="../page2/index.html"> Challenges </a> 
-                                        </div>
-                                        <p>walk in the shoes of a disabled person</p>
-                                  </div>
-                            </div>
-                            <div class="card">
-                                  <div class="box">
-                                        <div class="icon">
-                                             <a href="#">Meet-up</a> 
-                                        </div>
-                                        <p>challenge yourself in groups and share an intresting experience with people</p>
-                                  </div>
-                           </div>
-                    </div>
-            </div>
-</section>
 <!-- jquery code -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 

@@ -180,13 +180,13 @@ h2.title::before{
 
 .about .about-content .img{
 	float: left;
-	width: 35%;
+	width: 100%;
 	padding:15px;
 }
 .about .about-content .img img{
 	width: 100%;
-	border:10px solid #3c3c3c;
-	border-radius: 250px;
+	border:2px solid #3c3c3c;
+	border-radius: 15px;
 }
 .about .about-content .description{
 	float: left;
@@ -215,9 +215,20 @@ h2.title::before{
 	text-align: left;
 	font-weight: 400;
 }
+.description{
+	font-size:25px; 
+	background-color: #c2c0c3;
+	border-radius: 15px;
+	margin-left: 200px;
+	text-align:center ;
+	
+}
 /*Contact Section*/
 
 
+#signin{
+	border-bottom: #222222 5px solid;
+}
 .contact{
 	float: left;
 	width: 100%;
@@ -274,9 +285,10 @@ h2.title::before{
 	padding:15px;
 }
 .services .services-content .card .box{
-	background-color:#353535;
+	background-color:#c2c0c3;
 	padding:30px;
 	position: relative;
+	height: 190px;
 }
 .services .services-content .card .box::before{
 	content:'';
@@ -309,8 +321,8 @@ h2.title::before{
 }
 
 .services .services-content .card .box p{
-	color:#c2c0c3;
-	font-size: 16px;
+	color:#222222;
+	font-size: 25px;
 	line-height: 25px;
 	letter-spacing:.5px;
 	text-align: center;

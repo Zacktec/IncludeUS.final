@@ -1,0 +1,1 @@
+in order to run the applciation properly you need to import the data base join under the name "event.sql"
